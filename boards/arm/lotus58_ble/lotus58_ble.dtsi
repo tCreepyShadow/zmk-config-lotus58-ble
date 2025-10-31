@@ -2,7 +2,7 @@
 
 /dts-v1/;
 
-#include <nordic/nrf52840_quiaa.dtsi>
+#include <nordic/nrf52840_qiaa.dtsi>
 #include "lotus58_ble-pinctrl.dtsi"
 
 #include <dt-bindings/zmk/matrix_transform.h>
