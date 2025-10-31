@@ -87,6 +87,7 @@
         ;
   };
 
+/*
   left_encoder: encoder_left {
     compatible = "alps,ec11";
     a-gpios = <&gpio1 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
@@ -108,6 +109,7 @@
     sensors = <&left_encoder &right_encoder>;
     triggers-per-rotation = <20>;
   };
+*/
 
   vbatt: vbatt {
     compatible = "zmk,battery-nrf-vddh";
@@ -130,6 +132,7 @@
   status = "okay";
 };
 
+/*
 nice_view_spi: &spi1 {
   status = "okay";
   compatible = "nordic,nrf-spim";
@@ -138,6 +141,7 @@ nice_view_spi: &spi1 {
   pinctrl-names = "default", "sleep";
   cs-gpios = <&gpio0 31 GPIO_ACTIVE_LOW>;
 };
+*/
 
 zephyr_udc0: &usbd {
   status = "okay";

@@ -2,6 +2,8 @@
 
 #include "lotus58_ble.dtsi"
 
+/*
 &left_encoder {
   status = "okay";
 };
+*/
