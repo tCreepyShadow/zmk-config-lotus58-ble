@@ -30,6 +30,9 @@ config USB_NRFX
 config USB_DEVICE_STACK
     default y
 
+config ZMK_USB
+    default y
+
 endif # USB
 
 # Uncomment the ZMK_DISPLAY and LVGL stuff to use the nice!view
