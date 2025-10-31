@@ -1,5 +1,5 @@
 ---
-name: lotus58_ble_zmk
+name: lotus58_ble
 build:
   settings:
     board_root: .
