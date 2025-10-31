@@ -96,8 +96,7 @@
   vbatt: vbatt {
     compatible = "zmk,battery-nrf-vddh";
   };
-
-}
+};
 
 &adc {
   status = "okay";
